@@ -12,9 +12,10 @@ html {
 }
 
 body {
-    width: 1000px;
+    width: 100rem;
     margin: auto;
     font-size: 1.6rem;
+    display: flex;
 }
 
 a {
@@ -25,3 +26,26 @@ a {
 h1, h2, h3 {
     text-transform: uppercase;
 }
+
+#secondaryPart {
+    flex-basis: 33.33%;
+    background-color: #FECA07;
+}
+
+#mainSection {
+    flex-basis: 66.66%;
+}
+
+/* PARTIE SECONDAIRE (en jaune) */
+
+#image {
+    height: 30rem;
+    display: flex;
+}
+
+img{
+    border-radius : 50%;
+    border:4px solid #DAAF12;
+    width: 60%;
+    margin: auto;
+  }
