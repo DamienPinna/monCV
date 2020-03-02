@@ -28,6 +28,11 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 
+h6 {
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+
 #secondaryPart {
     flex-basis: 33.33%;
     background-color: #FECA07;
@@ -59,5 +64,9 @@ img{
   }
 
 #contact {
-    padding: 4rem 1rem 5rem 4rem;
+    padding: 4rem 1rem 4rem 4rem;
+}
+
+#contact div {
+    margin-bottom: 1.5rem;
 }
