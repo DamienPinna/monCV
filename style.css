@@ -46,6 +46,10 @@ h6 {
     flex-basis: 66.66%;
 }
 
+.flexContainer {
+    display: flex;
+}
+
 /* PARTIE SECONDAIRE (en jaune) */
 
 #image {
@@ -96,9 +100,11 @@ img{
 
 /* PARTIE INFORMATIONS SUR LE PARCOURS */
 
+#mainSection h2 {
+    display: inline;
+}
+
 #mainSection {
-    display: flex;
-    flex-direction: column;
     margin: 8rem 5rem 6rem 5.5rem;
 }
 
