@@ -17,6 +17,8 @@ body {
     font-size: 1.6rem;
     display: flex;
     font-family: 'Open Sans', sans-serif;
+    border-right: 0.1rem solid #CFCFCF;
+    border-left: 0.1rem solid #CFCFCF;
 }
 
 a {
@@ -90,4 +92,20 @@ img{
 #loisirs div i {
     font-size: 3.2rem;
     padding: 0 1rem;
+}
+
+/* PARTIE INFORMATIONS SUR LE PARCOURS */
+
+#mainSection {
+    display: flex;
+    flex-direction: column;
+    margin: 8rem 5rem 6rem 5.5rem;
+}
+
+#prenom {
+    color: #FECA07;   
+}
+
+#nom {
+    font-weight: lighter;
 }
