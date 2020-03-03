@@ -74,10 +74,20 @@ img{
 }
 
 #secondaryPart p {
-    padding: 4rem 4rem 0 4rem;
+    padding: 4rem;
     text-align: justify;
 }
 
 #loisirs {
     margin-top: auto;
+}
+
+#loisirs div {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+#loisirs div i {
+    font-size: 3.2rem;
+    padding: 0 1rem;
 }
