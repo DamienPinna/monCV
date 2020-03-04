@@ -50,6 +50,15 @@ h6 {
     display: flex;
 }
 
+address {
+    font-style: normal;
+}
+
+.iconsH2 {
+    padding-right: 2.5rem;
+    font-size: 3rem;
+}
+
 /* PARTIE SECONDAIRE (en jaune) */
 
 #image {
@@ -101,7 +110,7 @@ img{
 /* PARTIE INFORMATIONS SUR LE PARCOURS */
 
 #mainSection h2 {
-    display: inline;
+    display: inline-block;
 }
 
 #mainSection {
@@ -118,6 +127,17 @@ img{
 
 .dateAndCity {
     flex-basis: 33.33%;
+}
+
+.dateAndCity div {
+    display: inline-block;
+}
+
+.dateAndCity i {
+    font-size: 1rem;
+    margin-right: 1rem;
+    vertical-align: top;
+    padding-top: 0.6rem;
 }
 
 .description {
