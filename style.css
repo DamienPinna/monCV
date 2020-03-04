@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    width: 100rem;
+    width: 120rem;
     margin: auto;
     font-size: 1.6rem;
     display: flex;
@@ -84,16 +84,16 @@ img{
     text-align: justify;
 }
 
-#loisirs {
+#recreation {
     margin-top: auto;
 }
 
-#loisirs div {
+#recreation div {
     text-align: center;
     padding: 2rem 0;
 }
 
-#loisirs div i {
+#recreation div i {
     font-size: 3.2rem;
     padding: 0 1rem;
 }
@@ -108,10 +108,22 @@ img{
     margin: 8rem 5rem 6rem 5.5rem;
 }
 
-#prenom {
+#firstName {
     color: #FECA07;   
 }
 
-#nom {
+#name {
     font-weight: lighter;
+}
+
+.dateAndCity {
+    flex-basis: 33.33%;
+}
+
+.description {
+    flex-basis: 66.66%;
+}
+
+.recommendation {
+    flex-grow: 1;
 }
