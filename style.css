@@ -126,9 +126,9 @@ img{
     margin-bottom: 5rem;
 }
 
-#primaryPart h2 {
-    display: inline-block;
-    margin-bottom: 6rem;
+.part>div:nth-child(1) {
+    border-bottom: 0.2rem solid #FED22B;
+    padding-bottom: 1rem;
 }
 
 #primaryPart {
