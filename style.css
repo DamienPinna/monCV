@@ -31,7 +31,7 @@ h1, h2, h3 {
 }
 
 h1 {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     font-size: 4rem;
 }
 
@@ -42,6 +42,13 @@ h3 {
 h6 {
     font-size: 1.6rem;
     font-weight: normal;
+}
+
+img{
+    border-radius : 50%;
+    border:4px solid #DAAF12;
+    width: 60%;
+    margin: auto;
 }
 
 .flexContainer {
@@ -58,13 +65,6 @@ address {
 #image {
     height: 30rem;
     display: flex;
-}
-
-img{
-    border-radius : 50%;
-    border:4px solid #DAAF12;
-    width: 60%;
-    margin: auto;
 }
 
 #secondaryPart {
@@ -100,12 +100,12 @@ img{
 
 #recreation div {
     text-align: center;
-    padding: 2rem 0;
+    padding: 4rem 0;
 }
 
 #recreation div i {
     font-size: 3.2rem;
-    padding: 0 1rem;
+    padding: 0 2rem;
 }
 
 /* PARTIE INFORMATIONS SUR LE PARCOURS */
@@ -116,6 +116,11 @@ img{
 
 #title div {
     font-weight: bold;
+    font-size: 2rem;
+}
+
+#title div span {
+    border-bottom: 0.2rem solid #FED22B;
 }
 
 .part {
