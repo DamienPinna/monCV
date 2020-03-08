@@ -181,6 +181,9 @@ address {
     font-size: 3rem;
 }
 
+#imageForMobileScreen {
+    display: none;
+}
 
 /* ECRANS INFERIEURS A 1200 PX */
 
@@ -221,11 +224,27 @@ address {
     }
 
     img {
-        width: 40%;
-        margin: 5% auto;
+        width: 20rem;
+        margin: 2rem auto;
     }
 
     #image {
-        height: auto ;
+        display: none;
+    }
+
+    #imageForMobileScreen {
+        display: flex;
+    }
+
+    #primaryPart {
+        margin: 0 2.5rem;
+    }
+    
+    #primaryPart>div:first-child {
+        height: auto;
+    }
+
+    #secondaryPart {
+        order: 1;
     }
 }
