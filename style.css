@@ -21,12 +21,6 @@ body {
     border-left: 0.1rem solid #CFCFCF;
 }
 
-@media screen and (max-width: 1200px) {
-    body {
-        width: 100%;
-    }
-}
-
 a {
     text-decoration: none;
     color: #000;
@@ -187,6 +181,15 @@ address {
     font-size: 3rem;
 }
 
+
+/* ECRANS INFERIEURS A 1200 PX */
+
+@media screen and (max-width: 1200px) {
+    body {
+        width: 100%;
+    }
+}
+
 /* ECRANS INFERIEURS A 1090 PX */
 
 @media screen and (max-width: 1090px) {
@@ -207,5 +210,22 @@ address {
 
     .description {
         margin-left: 1.8rem;
+    }
+}
+
+/* ECRANS INFERIEURS A 900 PX */
+
+@media screen and (max-width: 900px) {
+    body {
+        flex-direction: column;
+    }
+
+    img {
+        width: 40%;
+        margin: 5% auto;
+    }
+
+    #image {
+        height: auto ;
     }
 }
