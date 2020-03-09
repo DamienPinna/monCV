@@ -123,7 +123,7 @@ address {
     border-bottom: 0.2rem solid #FED22B;
 }
 
-.partFormation, .partExperiencePro, .partRecommendation {
+.partFormation, .partExperiencePro {
     margin-bottom: 5rem;
 }
 
@@ -173,6 +173,19 @@ address {
 
 .recommendation {
     flex-grow: 1;
+}
+
+.partRecommendation .flexContainer .recommendation:nth-child(1) {
+    margin-bottom: 2rem;
+}
+
+.partRecommendation .flexContainer .recommendation:nth-child(2) {
+    margin-bottom: 5rem;
+}
+
+.partRecommendation>.flexContainer:nth-child(2) {
+    flex-wrap: wrap;
+    margin-bottom: 0;
 }
 
 .iconsH2 {
@@ -246,5 +259,21 @@ address {
 
     #secondaryPart {
         order: 1;
+    }
+}
+
+/* ECRANS INFERIEURS A 350 PX */
+
+@media screen and (max-width: 350px) {
+    .iconsH2 {
+        display: none !important;
+    }
+}
+
+/* ECRANS INFERIEURS A 300 PX */
+
+@media screen and (max-width: 300px) {
+    body{
+        font-size: 1.4rem;
     }
 }
