@@ -276,4 +276,12 @@ address {
     body{
         font-size: 1.4rem;
     }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    #title div {
+        font-size: 1.5rem;
+    }
 }
